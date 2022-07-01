@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <label style="text-align:center"for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+      </div>
+     
+      <h3 style="text-align:center">Todo List</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Study</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>Workout</label><input type="text" value="Workout"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+       
+      </ul>
+     
+      <h3 style="text-align:center">Completed List</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Play</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox" checked><label>Write notes</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
